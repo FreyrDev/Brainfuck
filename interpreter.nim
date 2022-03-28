@@ -41,5 +41,5 @@ proc interpret(code: string) =
       else: discard
     codePtr.inc()
 
-let input = readFile("helloworld.txt")
+let input = readFile("helloworld.bf")
 interpret(input)
